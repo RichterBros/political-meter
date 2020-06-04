@@ -14,13 +14,19 @@ $(document).ready(function() {
     
     if (total <= 3) {
       $("#liberal").show();
+      $("#moderate").hide();
+      $("#conservative").hide();
     }
     
     else if (total > 3 && total < 7) {
+      $("#liberal").hide();
       $("#moderate").show();
+      $("#conservative").hide();
     }
     
     else if (total >= 7) {
+      $("#liberal").hide();
+      $("#moderate").hide();
       $("#conservative").show();
     }
 });
