@@ -2,11 +2,23 @@ body {
   background-color: #a8df65;
 }
 
+.result {
+  text-align: center;
+  display: inline-block;
+}
+
 #submit {
   margin-top: 3%;
 }
 
-.result {
+#liberal {
   display: none;
-  margin-top: 5%;
+}
+
+#moderate {
+  display: none;
+}
+
+#conservative {
+  display: none;
 }

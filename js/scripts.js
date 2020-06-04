@@ -11,10 +11,21 @@ $(document).ready(function() {
     console.log(taxes);
     const total = gun + health + taxes;
     console.log(total);
-    });
-if 
-
+    
+    if (total <= 3) {
+      $("#liberal").show();
+    }
+    
+    else if (total > 3 && total < 7) {
+      $("#moderate").show();
+    }
+    
+    else if (total >= 7) {
+      $("#conservative").show();
+    }
 });
+});
+
 
 
 //parseInt($("#add2").val());
