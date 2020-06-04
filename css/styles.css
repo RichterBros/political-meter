@@ -1,0 +1,12 @@
+body {
+  background-color: #a8df65;
+}
+
+#submit {
+  margin-top: 3%;
+}
+
+.result {
+  display: none;
+  margin-top: 5%;
+}

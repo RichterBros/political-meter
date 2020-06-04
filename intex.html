@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Political Meter</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Political Meter</h1>
+    <form id="test" class="form-horizontal">
+      <div class="radio">
+        <h3>How do you feel about guns?</h3>
+        <label>
+          <input type="radio" name="gun" id="gun1" value="1">
+          I hate guns and won't touch them.
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="gun" id="gun2" value="2">
+          I enjoy going to the shooting range occationally.
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="gun" id="gun3" value="3">
+          I can't go through life without a gun at all times.
+        </label>
+      </div>
+      <div class="radio">
+        <h3>How do you feel about Healthcare?</h3>
+        <label>
+          <input type="radio" name="health" id="health1" value="3">
+          I think people should fend for themselves.
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="health" id="health2" value="2">
+          I want people to have access to affordable healthcare through private options.
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="health" id="health3" value="1">
+          Healthcare is a human right and should be free.
+        </label>
+      </div>
+      <div class="radio">
+        <h3>Taxes</h3>
+        <label>
+          <input type="radio" name="taxes" id="taxes1" value="1">
+          Taxes help to give us all a beautiful country.
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="taxes" id="taxes2" value="2">
+          I would like it if my taxes were lower, but I understand it is important to pay them.
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="taxes" id="taxes3" value="3">
+          No one should ever have to pay taxes. It is stealing.
+        </label>
+      </div>
+      <div class="col-sm-10">
+      <input id="submit" class="btn btn-primary" type="submit" value="Submit">
+      </div>
+    </form>
+  
+    <div class="result">
+    <h3>On the political spectrum you are:</h3>
+      <p id="liberal">You are Liberal!</p>
+      <p id="moderate">You are Moderate!</p>
+      <p id="conservative">You are Conservative!</p>
+    </div>
+  </div>
+</body>
+</html>
